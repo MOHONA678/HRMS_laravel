@@ -55,11 +55,7 @@
                             <li><a href="{{ route('form/leavesettings/page') }}">Leave Settings</a></li>
                             <li><a href="{{ route('attendance/page') }}">Attendance (Admin)</a></li>
                             <li><a href="{{ route('attendance/employee/page') }}">Attendance (Employee)</a></li>
-                            <li><a href="departments.html">Departments</a></li>
-                            <li><a href="designations.html">Designations</a></li>
-                            <li><a href="timesheet.html">Timesheet</a></li>
-                            <li><a href="shift-scheduling.html">Shift & Schedule</a></li>
-                            <li><a href="overtime.html">Overtime</a></li>
+                            
                         </ul>
                     </li>
                     <li class="menu-title"> <span>HR</span> </li>
@@ -86,40 +82,10 @@
                             <li><a href="{{ route('form/payroll/items') }}"> Payroll Items </a></li>
                         </ul>
                     </li>
-                    <li class="submenu"> <a href="#"><i class="la la-pie-chart"></i>
-                        <span> Reports </span> <span class="menu-arrow"></span></a>
-                        <ul style="display: none;">
-                            <li><a href="{{ route('form/expense/reports/page') }}"> Expense Report </a></li>
-                            <li><a href="{{ route('form/invoice/reports/page') }}"> Invoice Report </a></li>
-                            <li><a href="payments-reports.html"> Payments Report </a></li>
-                            <li><a href="employee-reports.html"> Employee Report </a></li>
-                            <li><a href="payslip-reports.html"> Payslip Report </a></li>
-                            <li><a href="attendance-reports.html"> Attendance Report </a></li>
-                            <li><a href="{{ route('form/leave/reports/page') }}"> Leave Report </a></li>
-                            <li><a href="{{ route('form/daily/reports/page') }}"> Daily Report </a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-title"> <span>Performance</span> </li>
-                    <li class="submenu"> <a href="#"><i class="la la-graduation-cap"></i>
-                        <span> Performance </span> <span class="menu-arrow"></span></a>
-                        <ul style="display: none;">
-                            <li><a href="{{ route('form/performance/indicator/page') }}"> Performance Indicator </a></li>
-                            <li><a href="{{ route('form/performance/page') }}"> Performance Review </a></li>
-                            <li><a href="{{ route('form/performance/appraisal/page') }}"> Performance Appraisal </a></li>
-                        </ul>
-                    </li>
-                    <li class="submenu"> <a href="#"><i class="la la-edit"></i>
-                        <span> Training </span> <span class="menu-arrow"></span></a>
-                        <ul style="display: none;">
-                            <li><a href="{{ route('form/training/list/page') }}"> Training List </a></li>
-                            <li><a href="{{ route('form/trainers/list/page') }}"> Trainers</a></li>
-                            <li><a href="{{ route('form/training/type/list/page') }}"> Training Type </a></li>
-                        </ul>
-                    </li>
+                   
+                    
                     <li class="menu-title"> <span>Administration</span> </li>
-                    <li> <a href="assets.html"><i class="la la-object-ungroup">
-                        </i> <span>Assets</span></a>
-                    </li>
+                    
                     <li class="submenu"> <a href="#"><i class="la la-briefcase"></i>
                         <span> Jobs </span> <span class="menu-arrow"></span></a>
                         <ul style="display: none;">
@@ -295,81 +261,6 @@
                     </section>
                 </div>
 
-                <div class="col-lg-4 col-md-4">
-                    <div class="dash-sidebar">
-                        <section>
-                            <h5 class="dash-title">Projects</h5>
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="time-list">
-                                        <div class="dash-stats-list">
-                                            <h4>71</h4>
-                                            <p>Total Tasks</p>
-                                        </div>
-                                        <div class="dash-stats-list">
-                                            <h4>14</h4>
-                                            <p>Pending Tasks</p>
-                                        </div>
-                                    </div>
-                                    <div class="request-btn">
-                                        <div class="dash-stats-list">
-                                            <h4>2</h4>
-                                            <p>Total Projects</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <h5 class="dash-title">Your Leave</h5>
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="time-list">
-                                        <div class="dash-stats-list">
-                                            <h4>4.5</h4>
-                                            <p>Leave Taken</p>
-                                        </div>
-                                        <div class="dash-stats-list">
-                                            <h4>12</h4>
-                                            <p>Remaining</p>
-                                        </div>
-                                    </div>
-                                    <div class="request-btn">
-                                        <a class="btn btn-primary" href="#">Apply Leave</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <h5 class="dash-title">Your time off allowance</h5>
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="time-list">
-                                        <div class="dash-stats-list">
-                                            <h4>5.0 Hours</h4>
-                                            <p>Approved</p>
-                                        </div>
-                                        <div class="dash-stats-list">
-                                            <h4>15 Hours</h4>
-                                            <p>Remaining</p>
-                                        </div>
-                                    </div>
-                                    <div class="request-btn">
-                                        <a class="btn btn-primary" href="#">Apply Time Off</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <h5 class="dash-title">Upcoming Holiday</h5>
-                            <div class="card">
-                                <div class="card-body text-center">
-                                    <h4 class="holiday-title mb-0">Mon 20 May 2019 - Ramzan</h4>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
             </div>
         </div>
         <!-- /Page Content -->
